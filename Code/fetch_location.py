@@ -6,7 +6,7 @@ import googlemaps
 import datetime
 from dateutil import tz
 
-gmaps = googlemaps.Client(key='AIzaSyAZqeih5xPgncq_cFbsNxH_6RZud2ChM4A')
+gmaps = googlemaps.Client(key='googlemapskey')
 
 # Geocoding an address
 geocode_result = gmaps.geolocate()
