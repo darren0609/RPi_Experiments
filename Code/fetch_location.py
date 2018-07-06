@@ -38,5 +38,5 @@ d=d.astimezone() #Convert it to your local timezone (still aware)
 
 sunsetT = d
 
-print("Sunrise : "+sunriseT.strftime("%I:%M:%S %p %Z")) #Print it with a directive of choice
-print("Sunset  : "+sunsetT.strftime("%I:%M:%S %p %Z")) #Print it with a directive of choice
+print("Sunrise for : "+sunriseT.strftime("%A, %B %d, %Y %I:%M:%S %p %Z")) #Print it with a directive of choice
+print("Sunset for  : "+sunsetT.strftime("%A, %B %d, %Y %I:%M:%S %p %Z")) #Print it with a directive of choice
